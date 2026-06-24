@@ -34,8 +34,27 @@ git push origin main --tags
 - Mensajes claros y descriptivos en español
 - Un commit por cambio lógico completo
 
+## Estilo y calidad del código
+
+- Escribir código como un profesional senior: limpio, legible y mantenible
+- Seguir las convenciones del lenguaje y del proyecto (imports, naming, estructura)
+- No dejar código comentado sin propósito — si no se usa, se elimina
+- Mantener consistencia: si el proyecto usa un patrón, seguirlo en todo el códigobase
+- Los nombres de variables, funciones y archivos deben ser autoexplicativos
+- Cada archivo debe tener una única responsabilidad bien definida
+
 ## Prohibido
 
 - Pushear `.env` con API keys (ya están en `.gitignore`)
 - Pushear sin tag
 - Pushear código que no compila/ejecuta
+
+---
+
+> Esta sección está preparada para futuras reglas. Agregar nuevas secciones arriba según sea necesario.
+>
+> **Próximas reglas propuestas:**
+> - Tests
+> - Linting/formatting
+> - Code review
+> - Branch strategy
