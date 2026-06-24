@@ -34,6 +34,20 @@ git push origin main --tags
 - Mensajes claros y descriptivos en español
 - Un commit por cambio lógico completo
 
+## Archivo VERSION
+
+- Existe un archivo `VERSION` en la raíz del proyecto
+- Su contenido debe coincidir exactamente con el último tag (`vX.Y.Z`)
+- Debe incrementarse en cada commit al mismo tiempo que se crea el tag
+- El formato es una línea: `vX.Y.Z` (sin salto de línea extra)
+
+## Directorio tools/
+
+- Todos los scripts utilitarios (`.sh`) se alojan en `tools/`
+- No debe haber scripts `.sh` sueltos en la raíz del proyecto
+- `tools/install.sh` → instalación multiplataforma
+- `tools/run.sh` → menú interactivo
+
 ## Estilo y calidad del código
 
 - Escribir código como un profesional senior: limpio, legible y mantenible
