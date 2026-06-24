@@ -93,7 +93,7 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 check_python
 check_pip
 
-PROJECT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 create_venv "$PROJECT_DIR"
 install_deps "$PROJECT_DIR" "$OS"
 
