@@ -1,0 +1,30 @@
+# --- API Keys ---
+.env
+
+# --- Virtual environment ---
+venv/
+.venv/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# --- Notebook artifacts ---
+.ipynb_checkpoints/
+*.nbdata
+
+# --- Vector DB persistent storage ---
+chroma_db/
+*.chroma
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
